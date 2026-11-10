@@ -10,7 +10,7 @@ Filled from the project brief and from statements on the public VFOX Island Trus
 - Slogan, exact: You Should Be Funded
 - The slogan is a brand line. It is not a guarantee of funding.
 - Parent mark: A platform by VFOX Island Trust
-- Parent public site: https://vfoxisland.wixsite.com/vfoxisland
+- Parent public site: https://vfoxisland.com
 
 ## Who it is for
 
@@ -86,7 +86,7 @@ From their public site, as scoped for this project:
 
 Verified public contact, attributed as VFOX Island Trust:
 
-- Site: https://vfoxisland.wixsite.com/vfoxisland
+- Site: https://vfoxisland.com
 - Email: coachg@vfoxisland.com (the only email on the DecTechMall site)
 - Phone: +1-301-237-7938
 - Instagram: https://www.instagram.com/coachgwheeler/

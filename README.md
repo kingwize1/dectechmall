@@ -1,6 +1,6 @@
 # DecTechMall
 
-Static marketing site for DecTechMall, the Decentralized A.I. Mall. A platform by [VFOX Island Trust](https://vfoxisland.wixsite.com/vfoxisland).
+Static marketing site for DecTechMall, the Decentralized A.I. Mall. A platform by [VFOX Island Trust](https://vfoxisland.com).
 
 Slogan: **You Should Be Funded**.
 
