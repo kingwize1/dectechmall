@@ -87,11 +87,11 @@ From their public site, as scoped for this project:
 Verified public contact, attributed as VFOX Island Trust:
 
 - Site: https://vfoxisland.wixsite.com/vfoxisland
-- Email: gw@vfoxisland.com (the only email on the DecTechMall site)
+- Email: coachg@vfoxisland.com (the only email on the DecTechMall site)
 - Phone: +1-301-237-7938
 - Instagram: https://www.instagram.com/coachgwheeler/
 
-The public Wix page also lists another email address and a longer capabilities statement. Those are not used here. Prefer gw@vfoxisland.com only.
+The public Wix page also lists another email address and a longer capabilities statement. Those are not used here. Prefer coachg@vfoxisland.com only.
 
 ## Claims that must not appear
 
@@ -110,6 +110,6 @@ Direct, specific, and serious. Athletic in the headlines, plain in the body. The
 
 - Static HTML, CSS, and JS at the repository root, for GitHub Pages, with no build step.
 - `index.html` at the root, `.nojekyll` present, asset paths relative.
-- Application form has no backend. It composes a `mailto:` to gw@vfoxisland.com and also offers the phone and Instagram routes.
+- Application form has no backend. It composes a `mailto:` to coachg@vfoxisland.com and also offers the phone and Instagram routes.
 - Brand mark: the official ProSport logo raster in the header, the hero, and the favicon.
 - Visual system: Direction 1 in `ideas.md`.

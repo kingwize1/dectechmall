@@ -34,7 +34,7 @@ There is no install step and no bundler. HTML, CSS, and JS are already the publi
 
 ## Apply form
 
-The form does not post to a server. Submit opens the visitor’s email app with a `mailto:` to `gw@vfoxisland.com`. Phone `+1-301-237-7938` and Instagram `@coachgwheeler` are on the page as other routes. An application is not a funding commitment.
+The form does not post to a server. Submit opens the visitor’s email app with a `mailto:` to `coachg@vfoxisland.com`. Phone `+1-301-237-7938` and Instagram `@coachgwheeler` are on the page as other routes. An application is not a funding commitment.
 
 ## Brand
 

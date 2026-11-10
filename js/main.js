@@ -116,7 +116,7 @@
     ];
     if (trimmed) lines.push("The message was shortened to fit an email link.");
     var subject = "DecTechMall application — " + data.role;
-    return "mailto:gw@vfoxisland.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\r\n"));
+    return "mailto:coachg@vfoxisland.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\r\n"));
   }
 
   function showErrors(form, errors) {
