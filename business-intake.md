@@ -1,4 +1,7 @@
-# DecTechMall business intake
+# DecentralizedSVM.com business intake
+
+> **Rebrand (Nov 10, 2026):** the product is now **Decentralized Silicon Valley Mall (DecentralizedSVM.com)**, styled "Decentralized Silicon Valley Mall by VFOX Island Trust". SVM = Silicon Valley Mall (open marketplace for capital and deal flow) and Solana / Sovereign Virtual Machine (settlement rails). Former names: DecTechMall, Decentralized AiTech Mall. Slogan and mission unchanged. New platform mechanics, SWARM360, hubs, roadmap, and leadership on the site come from the founder's Gemini planning conversation and are presented as intended design. Offering terms and pro-forma financials are kept off the public site.
+
 
 Filled from the project brief and from statements on the public VFOX Island Trust site. Nothing here is a live operating metric. If a proof point was not supplied, it is omitted.
 

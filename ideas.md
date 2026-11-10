@@ -4,6 +4,9 @@ Three directions were drawn before any page was built. Only Direction 1 is imple
 
 ## Direction 1 — ProSport Metallic Crest (IMPLEMENTED)
 
+> Rebrand update: the site is now DecentralizedSVM.com. Until a new logo exists, header, hero, and footer use a typographic wordmark ("DECENTRALIZED" over "SVM" + ".com") with a CSS laser-orange orbital ring. Burnished gold and laser orange were added to the palette, as described for the new mark.
+
+
 Derived from the supplied 3D mark: cyber blue, laser gold/amber, metallic silver, gunmetal, an orbital ring, stacked “Decentralized / Ai Mall / .com”, and the lower banner “DECENTRALIZED AI TECH MALL BY VFOX ISLAND TRUST”.
 
 - Canvas: deep gunmetal and near-black navy (`#080b10`), with a faint circuit mesh and one slow orbital ring. No purple gradient, no neon wash.

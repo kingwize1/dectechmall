@@ -1,16 +1,25 @@
-# DecTechMall
+# DecentralizedSVM.com — Decentralized Silicon Valley Mall
 
-Static marketing site for DecTechMall, the Decentralized A.I. Mall. A platform by [VFOX Island Trust](https://vfoxisland.com).
+Static marketing site for **Decentralized Silicon Valley Mall (DecentralizedSVM.com)**, *Decentralized Silicon Valley Mall by [VFOX Island Trust](https://vfoxisland.com)*. Formerly DecTechMall / Decentralized AiTech Mall.
 
-Slogan: **You Should Be Funded**.
+Slogan: **You Should Be Funded**. Mission: a decentralized launchpad marketplace for multicultural startups and founders. We connect founders to capital markets and capital markets to founders.
 
-Intended domain: **DecTechMall.com**. This repository does not include DNS records. Add a `CNAME` file only after the domain is pointed at GitHub Pages. The file would contain a single line:
+SVM has two meanings: **Silicon Valley Mall** (an open marketplace for capital and deal flow) and **Solana / Sovereign Virtual Machine** (settlement rails).
 
-```
-dectechmall.com
-```
+Live preview: https://kingwize1.github.io/dectechmall/
 
-Do not commit that file until the domain is ready. A `CNAME` here would tell GitHub Pages to serve this site on that host.
+Intended domain: **DecentralizedSVM.com**. This repository does not include DNS records and has no `CNAME` file. Add one only after the domain is pointed at GitHub Pages; it would contain the single line `decentralizedsvm.com`. If you do, change the `/dectechmall/` prefix in `404.html` to `/`.
+
+## Swapping in a new logo
+
+The old raster at `assets/brand/logo.png` still shows the previous name, so the page uses a typographic wordmark instead. Each logo spot is a single element marked with an HTML comment `LOGO SLOT`:
+
+- header: `<span class="wordmark wordmark-sm">` inside `.brand`
+- hero: `<span class="wordmark wordmark-lg">` inside `.hero-mark`
+- footer: `<span class="wordmark wordmark-sm">` inside `.footer-brand`
+- `404.html` header: same as the header
+
+To swap, replace each span with one `<img src="assets/brand/new-logo.png" alt="DecentralizedSVM.com" width="…" height="…">`. The existing `.brand img`, `.hero-mark img`, and `.footer-brand img` rules in `css/styles.css` already size images in those spots. The favicons in `assets/brand/` are still the old artwork; replace them with the new logo when it is ready.
 
 ## Preview locally
 
@@ -24,18 +33,16 @@ Open `http://127.0.0.1:8741/`.
 
 ## Publish on GitHub Pages
 
-1. Push this branch to GitHub.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-4. Set the branch to **main** and the folder to **/ (root)**.
-5. Save. The site is the files at the root, including `index.html`. `.nojekyll` is included so GitHub Pages will not run Jekyll.
+Settings → Pages → Deploy from a branch → `main` / root. `.nojekyll` is included.
 
-There is no install step and no bundler. HTML, CSS, and JS are already the published files. Fonts are self-hosted under `assets/fonts/`.
+## Contact routes
 
-## Apply form
+The apply form does not post to a server. Submit opens the visitor’s email app with a `mailto:` to `coachg@vfoxisland.com`. The Green-Light Judge and Accredited Investor buttons are also `mailto:` links to the same address (subjects `DecentralizedSVM.com Green-Light Judge interest` and `DecentralizedSVM.com investor materials request`). Phone `+1-301-237-7938` and Instagram `@coachgwheeler` are on the page.
 
-The form does not post to a server. Submit opens the visitor’s email app with a `mailto:` to `coachg@vfoxisland.com`. Phone `+1-301-237-7938` and Instagram `@coachgwheeler` are on the page as other routes. An application is not a funding commitment.
+## Investor content rule
+
+This is a public site. Offering terms (valuation caps, discounts, liquidation preferences, raise size), pro-forma financials, and return or safety claims are **not** published here. Investor materials go only to verified accredited investors on request. All plans and figures on the page are forward-looking and presented as intended design.
 
 ## Brand
 
-Direction 1, ProSport Metallic Crest, is documented in `ideas.md` and noted at the top of the CSS and page files. The business facts the copy is allowed to use are in `business-intake.md`.
+Direction 1, ProSport Metallic Crest (`ideas.md`), extended with burnished gold and laser-orange orbital accents. Business facts the copy may use are in `business-intake.md`.

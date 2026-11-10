@@ -111,11 +111,11 @@
       "Message:",
       message,
       "",
-      "Sent from the DecTechMall apply form.",
-      "An application is not a funding commitment."
+      "Sent from the DecentralizedSVM.com apply form.",
+      "Applying is not a funding commitment."
     ];
     if (trimmed) lines.push("The message was shortened to fit an email link.");
-    var subject = "DecTechMall application — " + data.role;
+    var subject = "DecentralizedSVM.com application — " + data.role;
     return "mailto:coachg@vfoxisland.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\r\n"));
   }
 
@@ -163,7 +163,7 @@
     });
   }
 
-  window.DecTechMall = {
+  window.DecentralizedSVM = {
     buildMailto: buildMailto,
     validate: validate
   };

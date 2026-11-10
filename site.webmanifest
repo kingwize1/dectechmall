@@ -1,7 +1,7 @@
 {
-  "name": "DecTechMall",
-  "short_name": "DecTechMall",
-  "description": "Decentralized A.I. Mall. A launchpad marketplace for multicultural startups and founders.",
+  "name": "Decentralized Silicon Valley Mall (DecentralizedSVM.com)",
+  "short_name": "DecentralizedSVM",
+  "description": "Decentralized Silicon Valley Mall by VFOX Island Trust. A decentralized launchpad marketplace for multicultural startups and founders. You Should Be Funded.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#080b10",

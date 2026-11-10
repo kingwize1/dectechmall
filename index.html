@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <!--
-  Direction 1 — ProSport Metallic Crest (IMPLEMENTED).
+  Direction 1 — ProSport Metallic Crest (IMPLEMENTED), rebranded to
+  Decentralized Silicon Valley Mall (DecentralizedSVM.com).
   Canvas: deep gunmetal / near-black navy.
-  Palette from the supplied mark only: cyber blue, laser gold/amber,
-  metallic silver, charcoal. No purple gradients.
+  Palette: cyber blue, laser gold, metallic silver, charcoal, plus
+  burnished gold and laser orange orbital accents. No purple gradients.
   Type: Barlow Condensed italic (athletic display) + Literata (body).
-  Motifs: orbital rings, beveled metal edges, stadium-crest geometry.
-  See ideas.md.
+  Brand mark: typographic wordmark (.wordmark). To swap in a new logo,
+  replace each <span class="wordmark ..."> with one <img>. See README.
 -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DecTechMall — You Should Be Funded</title>
-  <meta name="description" content="DecTechMall is a decentralized launchpad marketplace for multicultural startups and founders. Apply to be considered for funding or to open a storefront. A platform by VFOX Island Trust.">
+  <title>DecentralizedSVM.com — Decentralized Silicon Valley Mall | You Should Be Funded</title>
+  <meta name="description" content="Decentralized Silicon Valley Mall (DecentralizedSVM.com) is a decentralized launchpad marketplace for multicultural startups and founders, connecting founders to capital markets and capital markets to founders. By VFOX Island Trust.">
   <meta name="theme-color" content="#080b10">
-  <meta property="og:title" content="DecTechMall — You Should Be Funded">
-  <meta property="og:description" content="A decentralized launchpad marketplace where multicultural startups and independent founders open storefronts in a multi-vendor AI and Web3 mall.">
+  <meta property="og:site_name" content="DecentralizedSVM.com">
+  <meta property="og:title" content="Decentralized Silicon Valley Mall — You Should Be Funded">
+  <meta property="og:description" content="A decentralized launchpad marketplace for multicultural startups and founders: technical audits, live-streamed pitch arenas, and a Green-Light Judge consortium. By VFOX Island Trust.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kingwize1.github.io/dectechmall/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Decentralized Silicon Valley Mall — You Should Be Funded">
+  <meta name="twitter:description" content="We connect founders to capital markets and capital markets to founders. DecentralizedSVM.com by VFOX Island Trust.">
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="assets/brand/favicon-32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Decentralized Silicon Valley Mall",
+    "alternateName": ["DecentralizedSVM.com", "Decentralized SVM"],
+    "slogan": "You Should Be Funded",
+    "description": "A decentralized launchpad marketplace for multicultural startups and founders that connects founders to capital markets and capital markets to founders.",
+    "url": "https://kingwize1.github.io/dectechmall/",
+    "email": "coachg@vfoxisland.com",
+    "telephone": "+1-301-237-7938",
+    "founder": { "@type": "Person", "name": "George Wheeler Jr.", "alternateName": "Coach G", "jobTitle": "Founder & Executive Trustee" },
+    "parentOrganization": { "@type": "Organization", "name": "VFOX Island Trust", "url": "https://vfoxisland.com" },
+    "sameAs": ["https://www.instagram.com/coachgwheeler/"]
+  }
+  </script>
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
 
   <header class="site-header" id="top">
     <div class="header-bar">
-      <a class="brand" href="#top">
-        <img src="assets/brand/logo.png" width="1680" height="933" alt="Official Decentralized Ai Mall logo, DecTechMall home: gold orbital ring, metallic blue and silver lettering, and the banner Decentralized AI Tech Mall by VFOX Island Trust.">
+      <a class="brand" href="#top" aria-label="DecentralizedSVM.com home">
+        <!-- LOGO SLOT (header): replace this one span with an <img> when the new logo is ready. -->
+        <span class="wordmark wordmark-sm" aria-hidden="true"><span class="wm-ring"></span><span class="wm-top">Decentralized</span><span class="wm-main">SVM<span class="wm-com">.com</span></span></span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="nav-toggle-label">Menu</span>
       </button>
       <nav id="site-nav" aria-label="Primary">
         <ul>
-          <li><a href="#vision">Vision</a></li>
-          <li><a href="#categories">Categories</a></li>
-          <li><a href="#model">Model</a></li>
-          <li><a href="#founders">Founders</a></li>
-          <li><a href="#trust">Trust</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#mechanics">How it works</a></li>
+          <li><a href="#swarm">SWARM360</a></li>
+          <li><a href="#hubs">Hubs</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#judges">Judges</a></li>
+          <li><a href="#investors">Investors</a></li>
           <li><a href="#apply">Apply</a></li>
         </ul>
       </nav>
@@ -55,35 +80,194 @@
       <div class="orbit" aria-hidden="true"></div>
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="kicker">Decentralized A.I. Mall</p>
+          <p class="kicker">Decentralized Silicon Valley Mall</p>
           <h1 class="slogan" id="slogan">You Should<br><span>Be Funded</span></h1>
-          <p class="hero-lead">DecTechMall is a decentralized launchpad marketplace where multicultural startups and independent founders open storefronts in a multi-vendor AI and Web3 mall, not a single AI vendor.</p>
-          <p class="hero-meta">Intended domain DecTechMall.com. A platform by <a href="https://vfoxisland.com" target="_blank" rel="noopener noreferrer">VFOX Island Trust<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+          <p class="hero-lead">DecentralizedSVM.com is a decentralized launchpad marketplace for multicultural startups and founders. We connect founders to capital markets, and capital markets to founders. All day. Every day.</p>
+          <p class="hero-meta">Decentralized Silicon Valley Mall by <a href="https://vfoxisland.com" target="_blank" rel="noopener noreferrer">VFOX Island Trust<span class="sr-only"> (opens in a new tab)</span></a>. Intended domain DecentralizedSVM.com.</p>
           <div class="hero-actions">
             <a class="btn btn-gold" href="#apply">Get Funded</a>
-            <a class="btn btn-metal" href="#categories">Explore categories</a>
+            <a class="btn btn-metal" href="#mechanics">How it works</a>
+            <a class="btn btn-orange" href="#judges">Become a judge</a>
           </div>
         </div>
         <div class="hero-mark">
-          <img src="assets/brand/logo.png" width="1680" height="933" alt="Official Decentralized Ai Mall logo: a gold orbital ring around metallic blue Decentralized and silver Ai Mall lettering, with .com and the banner Decentralized AI Tech Mall by VFOX Island Trust.">
+          <!-- LOGO SLOT (hero): replace this one span with an <img> when the new logo is ready. -->
+          <span class="wordmark wordmark-lg" role="img" aria-label="Decentralized SVM .com wordmark with a laser-orange orbital ring"><span class="wm-ring" aria-hidden="true"></span><span class="wm-top" aria-hidden="true">Decentralized</span><span class="wm-main" aria-hidden="true">SVM<span class="wm-com">.com</span></span></span>
+          <p class="wm-caption">Silicon Valley Mall <span aria-hidden="true">·</span> Sovereign Virtual Machine</p>
         </div>
       </div>
-      <p class="ribbon">Decentralized AI Tech Mall by VFOX Island Trust</p>
+      <p class="ribbon">Decentralized Silicon Valley Mall by VFOX Island Trust</p>
+    </section>
+
+    <section id="mission" aria-labelledby="mission-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">01 — Mission</p>
+          <h2 id="mission-title">Product-market fit starts here.</h2>
+        </div>
+        <p class="lede">What we do is simple. We connect diverse MVP founders and tech teams to forward-thinking, open-minded liquidity providers: debt and equity funders, private or public. Founders get distribution, real critique, and a path to capital. Funders see working software instead of another static deck.</p>
+        <div class="svm-split">
+          <article class="svm-card svm-mall">
+            <p class="kicker">SVM, meaning one</p>
+            <h3>Silicon Valley Mall</h3>
+            <p>An open marketplace for capital and deal flow. The successor to a single gated corridor: founders from any community set up in the mall and meet capital in the open.</p>
+          </article>
+          <article class="svm-card svm-rails">
+            <p class="kicker">SVM, meaning two</p>
+            <h3>Solana / Sovereign Virtual Machine</h3>
+            <p>High-speed, low-latency settlement rails intended for agentic tech, programmatic syndicate allocations, and tokenized instruments, where and when the law allows.</p>
+          </article>
+        </div>
+        <ol class="flow" aria-label="How value moves through the mall">
+          <li><span class="flow-tag">Founder layer</span><strong>Supply</strong> Closed-door hackathons, the $149 technical audit, and MVP demo clearance.</li>
+          <li><span class="flow-tag">Media engine</span><strong>Arena</strong> Live streams, audience voting, interviews, and educational passes that create real buzz.</li>
+          <li><span class="flow-tag">Capital layer</span><strong>Liquidity</strong> Green-Light judges, sponsors, and syndicate allocators who watch execution live.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="mechanics" aria-labelledby="mechanics-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">02 — Platform mechanics</p>
+          <h2 id="mechanics-title">Audit. Pitch live. Get green-lit.</h2>
+        </div>
+        <p class="lede">The mall is designed to turn real technical diligence into a live event, then route founders who earn it to capital. These are the intended mechanics and prices of the platform as it launches.</p>
+        <ol class="rails mechanics">
+          <li>
+            <span class="idx">01</span>
+            <div class="rail-copy">
+              <h3>$149 Founder Technical Audit</h3>
+              <p>A low-barrier, zero-equity registration fee. It is designed to cover an automated codebase audit through SWARM360, security screening on local hardware, and clearance for a demo slot in a closed-door hackathon or main-stage pitch. Founders keep their equity.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">02</span>
+            <div class="rail-copy">
+              <h3>Live-streamed pitch arenas</h3>
+              <p>Pitch competitions become interactive broadcasts on DecentralizedSVM.com over WebRTC, syndicated to Twitch as a top-of-funnel channel. Owned player rails are planned so the arena does not depend on one streaming platform.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">03</span>
+            <div class="rail-copy">
+              <h3>$9.95 spectator and educational passes</h3>
+              <p>Viewers register for a live event to watch, vote in real-time audience polls, and learn from the critique. The audience is meant to act as a sentiment signal, not a funding decision.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">04</span>
+            <div class="rail-copy">
+              <h3>The $1B Green-Light Judge Consortium</h3>
+              <p>A planned panel of accredited judges, private credit syndicates, and institutional allocators, intended to represent up to $1 billion USD in combined green-light funding authority. Judges can issue letters of intent and commit funding on their own terms after their own diligence.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">05</span>
+            <div class="rail-copy">
+              <h3>2% syndicate matching fee</h3>
+              <p>When capital is placed through the mall’s matching, the platform is designed to earn a 2% success fee on the capital matched, instead of taking founder equity.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">06</span>
+            <div class="rail-copy">
+              <h3>$1/month referral membership</h3>
+              <p>Free to join, with an exclusive $1.00 per month referral membership for supporters who want to follow the arena and share it. Referral distribution is designed to reward the people who bring founders and viewers in.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="expo" class="band-orange" aria-labelledby="expo-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">03 — Live expo and streaming</p>
+          <h2 id="expo-title">Get seen. Create buzz. Get funded.</h2>
+        </div>
+        <p class="lede">Every pitch day is designed as a live expo: media attention, interviews, contests, giveaways, an educational audience, and a live Twitch event feed. Founders who are not funded on the day still leave with feedback and visibility.</p>
+        <div class="expo-grid">
+          <ul class="chip-list" aria-label="Live expo features">
+            <li>Live expo event streaming</li>
+            <li>Founder interviews</li>
+            <li>Contests and giveaways</li>
+            <li>Educational audience passes</li>
+            <li>Live Twitch event feed</li>
+            <li>Sponsor and product showcases</li>
+          </ul>
+          <div class="kip">
+            <h3>Goodwill-KIP: what we intend to measure</h3>
+            <p>Key impact predictors the platform is designed to track, so goodwill and economic velocity can be checked rather than claimed. These are targets and definitions, not results.</p>
+            <dl class="kip-list">
+              <div><dt>Democratized Opportunity Ratio</dt><dd>Share of capital deployed to under-represented and non-traditional founders. Design target: more than 65%.</dd></div>
+              <div><dt>Builder-to-Term-Sheet Velocity</dt><dd>Time from an on-stream pitch to an accredited letter of intent. Design target: under 14 business days.</dd></div>
+              <div><dt>Community Capital Multiplier</dt><dd>Follow-on capital raised by alumni founders per dollar raised on the main stage.</dd></div>
+              <div><dt>Network Trust Metric</dt><dd>How founders who were not selected rate the feedback and visibility they gained.</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="swarm" aria-labelledby="swarm-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">04 — SWARM360 architecture</p>
+          <h2 id="swarm-title">A multi-agent engine on local edge AI.</h2>
+        </div>
+        <p class="lede">SWARM360 is the planned multi-agent architecture that runs intake, broadcast operations, and capital routing, with deterministic checks between agents and people making the final calls.</p>
+        <ol class="agents">
+          <li class="agent agent-prime">
+            <span class="agent-node" aria-hidden="true">00</span>
+            <h3>AURA-Prime</h3>
+            <p>Master orchestration and routing. Directs founders, viewers, sponsors, and capital allocators across DecentralizedSVM.com to the right path.</p>
+          </li>
+          <li class="agent">
+            <span class="agent-node" aria-hidden="true">01</span>
+            <h3>Talent Agent</h3>
+            <p>Founder intake and validation. Scans submitted codebases, runs KYC and compliance checks, collects the $149 audit fee, and schedules closed-door pre-screens or main-stage slots.</p>
+          </li>
+          <li class="agent">
+            <span class="agent-node" aria-hidden="true">02</span>
+            <h3>Stream Agent</h3>
+            <p>Broadcast operations. Runs low-latency WebRTC and Twitch distribution, chat engagement, pass clearance, live audience polls, and sponsor overlays.</p>
+          </li>
+          <li class="agent">
+            <span class="agent-node" aria-hidden="true">03</span>
+            <h3>Capital Agent</h3>
+            <p>Investor matching. Aligns founders with relevant debt, equity, or liquidity providers by stage, sector, and ticket size, and supports syndicate setup.</p>
+          </li>
+        </ol>
+        <div class="edge">
+          <div>
+            <p class="kicker">Local edge AI compute stack</p>
+            <h3>Zero-egress founder IP protection</h3>
+            <p>Founder code is meant to be audited on hardware the platform controls, not sent to commercial cloud models. The planned stack:</p>
+          </div>
+          <ul class="spec-list">
+            <li><strong>Unified-memory edge nodes</strong> AMD Strix Halo / Ryzen AI Max+ 395 class mini-workstations with 128 GB unified memory, sized for local quantized large-model inference and code review.</li>
+            <li><strong>Compact Nvidia AI boxes</strong> Local CUDA acceleration for tensor pipelines and stream processing.</li>
+            <li><strong>Mobile AI workstations</strong> GPU laptops for field streaming and on-site hackathon intake.</li>
+            <li><strong>Cold storage and hardware keys</strong> Air-gapped, FIPS 140-3 class encrypted modules and fast local NVMe caches.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="vision" aria-labelledby="vision-title">
       <div class="wrap">
         <div class="section-head">
-          <p class="kicker">01 — Vision and architecture</p>
+          <p class="kicker">05 — The mall and its rails</p>
           <h2 id="vision-title">One mall. Shared rails. Independent storefronts.</h2>
         </div>
-        <p class="lede">The mall is an aggregated ecosystem. Independent creators, developers, and agent architects set up storefronts or deploy microservices. Buyers move through one marketplace. Compute, licensing, and settlement sit on shared decentralized rails, so a storefront can offer an agent, a model, or an infrastructure module without becoming the platform.</p>
+        <p class="lede">Beyond the arena, the mall is an aggregated ecosystem. Independent creators, developers, and agent architects set up storefronts or deploy microservices. Compute, licensing, and settlement sit on shared decentralized rails, so a storefront can offer an agent, a model, or an infrastructure module without becoming the platform.</p>
         <ol class="rails">
           <li>
             <span class="idx">01</span>
             <div class="rail-copy">
               <h3>Compute and hosting</h3>
-              <p>DePIN and distributed GPU clusters for training and inference. A storefront is designed to draw on shared compute instead of standing up one vendor’s private cloud.</p>
+              <p>Local edge nodes plus DePIN and distributed GPU clusters for training and inference. A storefront is designed to draw on shared compute instead of standing up one vendor’s private cloud.</p>
             </div>
           </li>
           <li>
@@ -96,8 +280,8 @@
           <li>
             <span class="idx">03</span>
             <div class="rail-copy">
-              <h3>Settlement and escrow</h3>
-              <p>Multi-currency rails for crypto, stablecoins, and fiat ramps, with deterministic split-payments to creators and node operators.</p>
+              <h3>SVM settlement and escrow</h3>
+              <p>Low-latency settlement rails with multi-currency support for stablecoins and fiat ramps, and deterministic split-payments to creators and node operators.</p>
             </div>
           </li>
         </ol>
@@ -107,10 +291,10 @@
     <section id="categories" aria-labelledby="categories-title">
       <div class="wrap">
         <div class="section-head">
-          <p class="kicker">02 — Storefront bays</p>
+          <p class="kicker">06 — Storefront bays</p>
           <h2 id="categories-title">Four bays. Many vendors.</h2>
         </div>
-        <p class="lede">These are the high-impact categories the mall is meant to hold. They are bays for independent storefronts, not a catalog of products this site is selling today.</p>
+        <p class="lede">These are the categories the mall is meant to hold. They are bays for independent storefronts, not a catalog of products this site is selling today.</p>
         <ol class="bays">
           <li class="bay">
             <span class="bay-num">01</span>
@@ -147,45 +331,91 @@
     <section id="model" aria-labelledby="model-title">
       <div class="wrap">
         <div class="section-head">
-          <p class="kicker">03 — Economic model</p>
+          <p class="kicker">07 — Economic model</p>
           <h2 id="model-title">How the mall is designed to earn.</h2>
         </div>
-        <p class="lede">DecTechMall is designed to earn from floor space, usage, and splits. The four lines below are the intended platform design.</p>
+        <p class="lede">Low-friction micro-payments from the community, underwriting from sponsors, and a success fee only when capital is matched. The lines below are the intended platform design and launch pricing, not results.</p>
         <dl class="ledger">
           <div>
-            <dt>Floor Space and Node Staking</dt>
-            <dd>Vendors stake or hold a membership to list vetted apps and keep a verified storefront.</dd>
+            <dt>Referral membership</dt>
+            <dd>Free to join; exclusive referral membership at $1.00 per month.</dd>
           </div>
           <div>
-            <dt>Transaction Fee / Protocol Take-Rate</dt>
-            <dd>Micro-fees on API calls, contract executions, asset sales, and subscription licenses.</dd>
+            <dt>Founder technical audit</dt>
+            <dd>$149 per team to register for a closed-door hackathon or live pitch day. No equity taken.</dd>
           </div>
           <div>
-            <dt>Deterministic Revenue Splits</dt>
-            <dd>Automated affiliate and referral distribution among lead sources, the platform treasury, and creators.</dd>
+            <dt>Spectator and educational pass</dt>
+            <dd>$9.95 per live event to join the streamed audience and vote.</dd>
           </div>
           <div>
-            <dt>Tiered Access Passes (VIP / Enterprise)</dt>
-            <dd>High-compute tiers, proprietary enterprise models, and low-latency nodes.</dd>
+            <dt>Corporate sponsorship tiers</dt>
+            <dd>$495, $795, $1,495, $2,595, and $4,995 for panels, judge chairs, and hackathon breakout rooms.</dd>
+          </div>
+          <div>
+            <dt>Product placement and brand sponsorship</dt>
+            <dd>Product placement from $494; brand sponsorships from $995 to $20,000 for stage naming, keynote slots, and showcases.</dd>
+          </div>
+          <div>
+            <dt>Syndicate matching fee</dt>
+            <dd>2% of capital matched through the platform.</dd>
+          </div>
+          <div>
+            <dt>Storefronts and access tiers</dt>
+            <dd>Vendor memberships or stakes for verified storefronts, micro-fees on licensed usage, and VIP or enterprise access tiers.</dd>
           </div>
         </dl>
-        <p class="design-note">Intended platform design. This page does not state yields, token prices, amounts raised, or market caps.</p>
+        <p class="design-note">Intended platform design. This page states no projections, yields, token prices, amounts raised, or valuations.</p>
+      </div>
+    </section>
+
+    <section id="hubs" aria-labelledby="hubs-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">08 — Hub network</p>
+          <h2 id="hubs-title">Six planned hubs. Every market time zone.</h2>
+        </div>
+        <p class="lede">The plan is a network of six permanent physical hubs that double as broadcast stages, secure compute sites, and demo suites for judges. Several are intended to also operate as professionally managed luxury hospitality properties for visiting founders, judges, and guests. All sites are planned, not yet open.</p>
+        <ol class="hubs">
+          <li><span class="hub-code">SV</span><h3>Silicon Valley, CA</h3><p>Planned headquarters: broadcast arena, secure compute vault, and the closed-door hackathon floor.</p></li>
+          <li><span class="hub-code">FL</span><h3>North Florida</h3><p>Planned hospitality hub and East Coast founder sanctuary.</p></li>
+          <li><span class="hub-code">LV</span><h3>Las Vegas, NV</h3><p>Planned tech-expo node and hospitality hub.</p></li>
+          <li><span class="hub-code">VA</span><h3>Northern Virginia</h3><p>Planned capital-markets hub for institutional allocators in the McLean and Tysons corridor.</p></li>
+          <li><span class="hub-code">HI</span><h3>Honolulu, HI</h3><p>Planned Pacific Rim broadcast bridge between US and Asia-Pacific trading hours.</p></li>
+          <li><span class="hub-code">BK</span><h3>Bangkok, Thailand</h3><p>Planned Southeast Asia regional operations and digital hub.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="roadmap" aria-labelledby="roadmap-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">09 — 120-day roadmap</p>
+          <h2 id="roadmap-title">From first close to Episode 1.</h2>
+        </div>
+        <p class="lede">The intended execution plan once financing closes. Dates count from that close and may change.</p>
+        <ol class="timeline">
+          <li><span class="t-when">Days 1–30</span><div><h3>Capital and sites</h3><p>Close the initial financing and begin acquiring the planned hub locations.</p></div></li>
+          <li><span class="t-when">Days 31–60</span><div><h3>Edge compute and operations</h3><p>Commission local edge AI nodes across the hubs and onboard professional hospitality management where planned.</p></div></li>
+          <li><span class="t-when">Days 61–90</span><div><h3>Hackathons and community</h3><p>Launch closed-door hackathons, open the $1/month referral membership, and seat the Green-Light Judge Consortium.</p></div></li>
+          <li><span class="t-when">Day 120</span><div><h3>Episode 1: The Live Arena</h3><p>Broadcast the first live showcase on DecentralizedSVM.com and Twitch, with vetted MVP teams, live judges, and audience polling.</p></div></li>
+        </ol>
       </div>
     </section>
 
     <section id="founders" aria-labelledby="founders-title">
       <div class="wrap">
         <div class="section-head">
-          <p class="kicker">04 — For founders and vendors</p>
+          <p class="kicker">10 — For founders and vendors</p>
           <h2 id="founders-title">Two ways into the mall.</h2>
         </div>
-        <p class="lede">The primary step is to apply to be considered for funding or to open a storefront. Exploring the bays comes second. The line “You Should Be Funded” is a brand slogan.</p>
+        <p class="lede">The primary step is to apply to be considered for funding, a pitch slot, or a storefront. The line “You Should Be Funded” is a brand slogan, not a promise of funding.</p>
       </div>
       <div class="paths">
         <article class="path path-founders" aria-labelledby="for-founders">
           <p class="kicker">Home side</p>
           <h3 id="for-founders">For founders</h3>
-          <p>Multicultural startups and founders are the center of the mall. Apply to be considered for funding, or apply to open a storefront of your own. An application is a request to be reviewed.</p>
+          <p>Multicultural startups and founders are the center of the mall. Apply for the $149 technical audit and a pitch slot, or to be considered for funding. An application is a request to be reviewed.</p>
           <a class="btn btn-gold" href="#apply" data-role="Founder">Apply as a founder</a>
         </article>
         <article class="path path-vendors" id="vendors" aria-labelledby="for-vendors">
@@ -195,20 +425,61 @@
           <a class="btn btn-metal" href="#apply" data-role="Vendor">Apply as a vendor</a>
         </article>
       </div>
-      <div class="wrap">
-        <p class="disclaimer">An application is not a funding commitment. Nothing on this site is investment advice or an offer of securities.</p>
+    </section>
+
+    <section id="judges" class="band-orange" aria-labelledby="judges-title">
+      <div class="wrap cta-grid">
+        <div>
+          <p class="kicker">11 — Green-Light Judge Consortium</p>
+          <h2 id="judges-title">Become a Green-Light Judge.</h2>
+          <p class="lede">For accredited investors, fund managers, private credit syndicates, family offices, and corporate venture teams who want to see founders execute live and act on what they see.</p>
+          <ul class="tick-list">
+            <li>A judge seat during live WebRTC and Twitch pitch broadcasts</li>
+            <li>Planned first-look access to audited MVP codebases before general syndication</li>
+            <li>Zero-egress handling of founder code, with confidentiality and non-circumvention terms</li>
+            <li>Every funding decision stays yours, after your own diligence</li>
+          </ul>
+        </div>
+        <div class="cta-plate">
+          <h3>Register judge interest</h3>
+          <p>Tell us your firm, your typical check size, sectors, and instruments. A judge agreement and accreditation form follow.</p>
+          <a class="btn btn-orange" href="mailto:coachg@vfoxisland.com?subject=DecentralizedSVM.com%20Green-Light%20Judge%20interest&amp;body=Name%3A%0D%0AFirm%3A%0D%0ATypical%20check%20size%3A%0D%0ASectors%20and%20instruments%3A%0D%0AAccredited%20investor%20(yes%2Fno)%3A%0D%0A">Email judge interest</a>
+        </div>
       </div>
     </section>
 
-    <section id="trust" aria-labelledby="trust-title">
+    <section id="investors" aria-labelledby="investors-title">
+      <div class="wrap cta-grid">
+        <div>
+          <p class="kicker">12 — Accredited investors</p>
+          <h2 id="investors-title">Investor materials, on request.</h2>
+          <p class="lede">Investor materials for DecentralizedSVM.com, including the pitch deck, term sheet, and financial model, are available only to verified accredited investors on request. Offering terms are not published on this site.</p>
+          <p>Any offering is made only to verified accredited investors through official offering documents. Requesting materials does not create any obligation on either side.</p>
+        </div>
+        <div class="cta-plate cta-gold">
+          <h3>Request investor materials</h3>
+          <p>Email us from your firm address and say how you qualify as an accredited investor. Verification is required before materials are shared.</p>
+          <a class="btn btn-gold" href="mailto:coachg@vfoxisland.com?subject=DecentralizedSVM.com%20investor%20materials%20request&amp;body=Name%3A%0D%0AFirm%3A%0D%0APhone%3A%0D%0AHow%20I%20qualify%20as%20an%20accredited%20investor%3A%0D%0AMaterials%20requested%20(pitch%20deck%2C%20term%20sheet%2C%20financial%20model)%3A%0D%0A">Request investor materials</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="leadership" aria-labelledby="leadership-title">
       <div class="wrap trust-grid">
         <div class="trust-copy">
-          <p class="kicker">05 — Parent mark</p>
-          <h2 id="trust-title">A platform by VFOX Island Trust.</h2>
+          <p class="kicker">13 — Leadership</p>
+          <h2 id="leadership-title">Led by Coach G.</h2>
+          <div class="leader">
+            <h3>George Wheeler Jr. “Coach G”</h3>
+            <p class="leader-role">Founder &amp; Executive Trustee</p>
+            <p>Coach G brings more than 30 years in corporate finance, business development, treasury and asset management, and agentic architecture. The platform is built through the directorate office of VFOX Island Trust Innovation Labs and CoachG&amp;Co.</p>
+          </div>
+          <h3 class="trust-h">A platform by VFOX Island Trust.</h3>
           <p>On its public site, VFOX Island Trust describes itself as a private global business development trust focused on capital formation and project funding. It describes a startup incubate and accelerator practice, and a commitment that a portion of project profits support disadvantaged global communities, including multicultural job creation.</p>
+          <p class="fine">VFOX Island Trust is a business development trust. It is not a cryptocurrency and is not affiliated with any token that uses the VFOX name.</p>
           <p><a href="https://vfoxisland.com" target="_blank" rel="noopener noreferrer">Read the trust’s public site<span class="sr-only"> (opens in a new tab)</span></a></p>
         </div>
-        <aside class="contact-plate" aria-labelledby="contact-title">
+        <aside class="contact-plate" id="trust" aria-labelledby="contact-title">
           <h3 id="contact-title">VFOX Island Trust</h3>
           <ul class="contact-list">
             <li>
@@ -235,9 +506,9 @@
     <section id="apply" aria-labelledby="apply-title">
       <div class="wrap apply-grid">
         <div>
-          <p class="kicker">06 — Apply</p>
+          <p class="kicker">14 — Apply</p>
           <h2 id="apply-title">File an application.</h2>
-          <p class="lede">Say whether you are a founder asking to be considered, or a vendor who wants a storefront. The form opens an email to coachg@vfoxisland.com with your answers in the body. Nothing is transmitted until you send that email.</p>
+          <p class="lede">Say whether you are a founder asking for a pitch slot or to be considered for funding, or a vendor who wants a storefront. The form opens an email to coachg@vfoxisland.com with your answers in the body. Nothing is transmitted until you send that email.</p>
           <ul class="contact-list">
             <li>
               <span>Email</span>
@@ -294,7 +565,7 @@
               <label for="message">Message</label>
               <textarea id="message" name="message" required maxlength="1500" placeholder="What you are building, who it is for, and what you want considered."></textarea>
             </div>
-            <p class="disclaimer">An application is not a funding commitment. Nothing on this site is investment advice or an offer of securities.</p>
+            <p class="disclaimer">Applying is not a funding commitment. Nothing on this site is investment advice, an offer to sell, or a solicitation of an offer to buy securities. Any offering is made only to verified accredited investors through official offering documents. All plans and figures are forward-looking.</p>
             <div class="form-actions">
               <button class="btn btn-gold" type="submit">Email this application</button>
             </div>
@@ -310,26 +581,32 @@
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div class="footer-brand">
-        <img src="assets/brand/logo.png" width="1680" height="933" alt="Official Decentralized Ai Mall logo with a gold orbital ring and the VFOX Island Trust banner.">
-        <p><strong>DecTechMall</strong><br>Decentralized A.I. Mall<br>Intended domain DecTechMall.com</p>
+        <!-- LOGO SLOT (footer): replace this one span with an <img> when the new logo is ready. -->
+        <span class="wordmark wordmark-sm" role="img" aria-label="DecentralizedSVM.com"><span class="wm-ring" aria-hidden="true"></span><span class="wm-top" aria-hidden="true">Decentralized</span><span class="wm-main" aria-hidden="true">SVM<span class="wm-com">.com</span></span></span>
+        <p><strong>Decentralized Silicon Valley Mall</strong><br>You Should Be Funded<br>Intended domain DecentralizedSVM.com</p>
       </div>
       <div>
         <p class="kicker">On this page</p>
         <ul class="footer-nav">
-          <li><a href="#vision">Vision</a></li>
-          <li><a href="#categories">Categories</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#mechanics">How it works</a></li>
+          <li><a href="#expo">Live expo</a></li>
+          <li><a href="#swarm">SWARM360</a></li>
+          <li><a href="#categories">Bays</a></li>
           <li><a href="#model">Model</a></li>
-          <li><a href="#founders">Founders</a></li>
-          <li><a href="#vendors">Vendors</a></li>
-          <li><a href="#trust">VFOX Island Trust</a></li>
+          <li><a href="#hubs">Hubs</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#judges">Judges</a></li>
+          <li><a href="#investors">Investors</a></li>
+          <li><a href="#leadership">Leadership</a></li>
           <li><a href="#apply">Apply</a></li>
         </ul>
-        <p class="disclaimer">An application is not a funding commitment. Nothing on this site is investment advice or an offer of securities.</p>
+        <p class="disclaimer">Applying is not a funding commitment. Nothing on this site is investment advice, an offer to sell, or a solicitation of an offer to buy securities. Any offering is made only to verified accredited investors through official offering documents. All plans and figures are forward-looking.</p>
       </div>
     </div>
     <p class="footer-bar">
-      Decentralized AI Tech Mall by VFOX Island Trust
-      <small>© 2026 DecTechMall</small>
+      Decentralized Silicon Valley Mall by VFOX Island Trust
+      <small><a href="https://vfoxisland.com" target="_blank" rel="noopener noreferrer">vfoxisland.com<span class="sr-only"> (opens in a new tab)</span></a> · © 2026 DecentralizedSVM.com</small>
     </p>
   </footer>
 
