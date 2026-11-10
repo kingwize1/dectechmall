@@ -111,5 +111,5 @@ Direct, specific, and serious. Athletic in the headlines, plain in the body. The
 - Static HTML, CSS, and JS at the repository root, for GitHub Pages, with no build step.
 - `index.html` at the root, `.nojekyll` present, asset paths relative.
 - Application form has no backend. It composes a `mailto:` to gw@vfoxisland.com and also offers the phone and Instagram routes.
-- Brand mark: the ProSport crest in the header, the hero, and the favicon.
+- Brand mark: the official ProSport logo raster in the header, the hero, and the favicon.
 - Visual system: Direction 1 in `ideas.md`.

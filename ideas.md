@@ -13,7 +13,7 @@ Derived from the supplied 3D mark: cyber blue, laser gold/amber, metallic silver
 - Layout: asymmetric hero (slogan left, crest right), full-width rails, numbered bays, an engraved economic ledger. Not a centered stack of equal cards.
 - Rejected inside this direction: glassmorphism, stock “AI brain” art, generic icon grids, and any second logo.
 
-The crest used in the header, hero, and favicon is a vector lockup of that supplied composition (same wording, same metal colors, same ring and banner). The original raster file was not present on disk in this workspace, so the mark was rebuilt as vectors from the artwork that was shown, not swapped for a different symbol.
+The header, hero, footer, and favicon use the official logo raster. Its outer dark field is keyed out so the artwork sits on the gunmetal canvas without a hard rectangle. The favicon is that same image, uncropped, centered in a square. No redrawn crest is used as the brand mark.
 
 ## Direction 2 — Bright Editorial Fund Prospectus (not implemented)
 

@@ -189,8 +189,9 @@ p {
   display: block;
   width: auto;
   height: auto;
-  max-height: 52px;
+  max-height: 58px;
   max-width: 100%;
+  object-fit: contain;
 }
 
 .nav-toggle {
@@ -353,8 +354,10 @@ p {
 
 .hero-mark img {
   width: min(100%, 640px);
+  height: auto;
   display: block;
   margin-inline: auto;
+  object-fit: contain;
 }
 
 .hero-grid > *,
@@ -715,8 +718,9 @@ button.btn {
 }
 
 .footer-brand img {
-  height: 72px;
-  width: auto;
+  height: auto;
+  width: min(100%, 220px);
+  object-fit: contain;
 }
 
 .footer-nav {
@@ -797,8 +801,8 @@ button.btn {
   }
 
   .brand img {
-    max-height: 68px;
-    max-width: none;
+    max-height: 74px;
+    max-width: 280px;
   }
 
   .nav-toggle {
